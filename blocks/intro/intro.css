@@ -1,0 +1,13 @@
+.intro {
+  margin: 0 auto;
+  margin-top: 92px;
+  max-width: 984px;
+  width: calc(100% - 148px);
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+    width: calc(100% - 48px);
+  }
+}

@@ -1,0 +1,14 @@
+.photo-grid__item {
+  height: 213px;
+  width: 284px;
+
+  object-fit: cover;
+  object-position: left;
+}
+
+@media (max-width: 1024px) {
+  .photo-grid__item {
+    height: 225px;
+    width: 300px;
+  }
+}
