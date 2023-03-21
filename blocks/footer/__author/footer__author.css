@@ -7,9 +7,20 @@
   line-height: 16px;
   letter-spacing: 0em;
   color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+}
+
+@media (max-width: 650px) {
+  .footer__author {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__author {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 48px;
+  }
 }

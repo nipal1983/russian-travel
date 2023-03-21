@@ -9,11 +9,9 @@
   <body class="page">
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Russia" />
-      <div class="language">
+      <div class="header__language">
         <a class="header__lang-link header__lang-link_underline" href="#">Ru</a>
-        <a class="header__lang-link header__lang-link_not-underline" href="#"
-          >En</a
-        >
+        <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
 
@@ -28,18 +26,19 @@
       </section>
 
       <section class="intro">
-        <div class="intro__title">Чего мы там не видели?</div>
-        <div class="intro__text">
+        <h2 class="intro__title">Чего мы там не видели?</h2>
+        <p class="intro__text">
           По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
           36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома,
           не видели? На самом деле, Россия — это целая вселенная с ласковым
           морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё
-          увидеть все эти красоты можно без миллионов на счету, загранпаспорта и
-          многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая
-          мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и
-          проехала 20 тысяч километров по родной стране. Мы выбрали и описали
-          некоторые интересные места, достойные вашего отпуска.
-        </div>
+          увидеть все эти красоты можно&nbsp; без миллионов на счету,
+          загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова
+          — смелая молодая мама, которая взяла в охапку троих детей, усадила их
+          в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы
+          выбрали и описали некоторые интересные места, достойные вашего
+          отпуска.
+        </p>
         <ul class="intro__list">
           <li>Часовых поясов <span class="intro__list-digits">11</span></li>
           <li>
@@ -123,12 +122,16 @@
 
       <section class="places">
         <div class="place">
-          <div class="place__title">Куршская коса</div>
+          <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
           </div>
-          <img class="place__image" src="./images/place-kosa.jpg" />
+          <img
+            class="place__image"
+            src="./images/place-kosa.jpg"
+            alt="Kurchskaya kosa"
+          />
           <div>
             <p class="place__paragraph">
               Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных
@@ -137,17 +140,18 @@
               природная зона на краю российского анклава.
             </p>
             <p class="place__paragraph">
-              На этом Калининградская область не заканчивается. Для
-              путешественника и исследователя там же по соседству — самая
-              западная точка России, Балтийская коса, — и немецкое наследие
+              На&nbsp;этом Калининградская область не&nbsp;заканчивается.&nbsp;
+              Для путешественника и&nbsp;исследователя там&nbsp;же
+              по&nbsp;соседству&nbsp;&mdash; самая западная&nbsp; точка России,
+              &nbsp;Балтийская коса,&nbsp;&mdash; и&nbsp;немецкое наследие
               россыпи небольших приморских городов. Атмосфера здешних мест
-              исключает суету, окуная в спокойствие природы и запах стального,
-              прохладного моря.
+              исключает суету, окуная в&nbsp;спокойствие природы и&nbsp;запах
+              стального, прохладного моря.
             </p>
           </div>
         </div>
         <div class="place">
-          <div class="place__title">Кольский</div>
+          <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
@@ -156,7 +160,11 @@
               >National Geographic</a
             >
           </div>
-          <img class="place__image" src="./images/place-kolsky.jpg" />
+          <img
+            class="place__image"
+            src="./images/place-kolsky.jpg"
+            alt="Kolskiy poluostrov"
+          />
           <div>
             <p class="place__paragraph">
               Почти весь полуостров находится за Полярным кругом. Саамская
@@ -175,7 +183,7 @@
           </div>
         </div>
         <div class="place">
-          <div class="place__title">Алтай</div>
+          <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a
@@ -184,7 +192,11 @@
               >YouTube</a
             >
           </div>
-          <img class="place__image" src="./images/place-altai.jpg" />
+          <img
+            class="place__image"
+            src="./images/place-altai.jpg"
+            alt="Altai"
+          />
           <div>
             <p class="place__paragraph">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
@@ -202,14 +214,18 @@
           </div>
         </div>
         <div class="place">
-          <div class="place__title">Зимний Байкал</div>
+          <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="https://vk.com/baikalmile"
               >https://vk.com/baikalmile</a
             >
           </div>
-          <img class="place__image" src="./images/place-winter-baikal.jpg" />
+          <img
+            class="place__image"
+            src="./images/place-winter-baikal.jpg"
+            alt="Zimnii Baikal"
+          />
 
           <div>
             <p class="place__paragraph">
@@ -222,19 +238,24 @@
               соревнований по скийорингу. Это такой вид спорта, когда лыжник
               привязывает себя к мотоциклу, и тандем старается развить как можно
               бóльшую скорость на льду. В марте 2019 года на фестивале
-              «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
+              «Байкальская миля» был поставлен&nbsp; мировой рекорд — 197.011
+              км/ч.
             </p>
           </div>
         </div>
         <div class="place">
-          <div class="place__title">Карелия</div>
+          <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="http://vodlozero.ru"
               >http://vodlozero.ru</a
             >
           </div>
-          <img class="place__image" src="./images/place-karelia.jpg" />
+          <img
+            class="place__image"
+            src="./images/place-karelia.jpg"
+            alt="Karelia"
+          />
 
           <div>
             <p class="place__paragraph">
@@ -254,34 +275,40 @@
 
       <section class="cover">
         <a class="cover__link" href="#">
-          <div class="cover__text">
-            <h2 class="cover__title">До Байкала "на собаках"</h2>
-            <p class="cover__subtitle">
-              По мотивам учебной темы о Транссибе — путешествие от столицы до
-              Байкала на электричках.
-            </p>
-          </div>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
+          <p class="cover__subtitle">
+            По мотивам учебной темы о Транссибе — путешествие от столицы до
+            Байкала на электричках.
+          </p>
         </a>
       </section>
     </main>
+
     <footer class="footer">
-                <nav>
-            <ul class="footer__links">
-              <li><a class="footer__link" href="https://yandex.ru/maps">Карты</a></li>
-              <li><a class="footer__link" href="https://yandex.ru/pogoda">Погода</a></li>
-              <li><a class="footer__link" href="https://rasp.yandex.ru">Расписание</a></li>
-              <li><a class="footer__link" href="https://calendar.yandex.ru">Календарь</a></li>
-              <li><a class="footer__link" href="https://travel.yandex.ru">Путешествия</a></li>
-            </ul>
-          </nav>
-
-            <p class="footer__author">© 2023. Алексей Лапин</p>
-          </div>
-        </div>
-      </footer>
-
-
-
-
+      <nav>
+        <ul class="footer__links">
+          <li>
+            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+          </li>
+          <li>
+            <a class="footer__link" href="https://calendar.yandex.ru"
+              >Календарь</a
+            >
+          </li>
+          <li>
+            <a class="footer__link" href="https://travel.yandex.ru"
+              >Путешествия</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <p class="footer__author">© 2023. Алексей Лапин</p>
+    </footer>
   </body>
 </html>

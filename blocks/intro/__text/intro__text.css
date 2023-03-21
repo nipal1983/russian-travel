@@ -1,18 +1,25 @@
 .intro__text {
   max-width: 690px;
-  height: 208px;
 
   margin-top: 40px;
-  font-family: "Inter";
+
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 163%;
 
   color: #ffffff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__text {
+    max-width: 288px;
+  }
 }
