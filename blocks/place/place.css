@@ -24,16 +24,16 @@
   }
 }
 
-@media (max-width: 650px) {
+/*@media (max-width: 650px) {
   .place {
     grid-template-columns: minmax(min-content, 150px) minmax(0, 1fr);
     gap: 32px;
   }
 }
-
-@media (max-width: 320px) {
+*/
+@media (max-width: 650px) {
   .place {
-    grid-template-columns: repeat(auto-fill, 100vw);
+    grid-template-columns: repeat(auto-fill, 100%);
     margin-bottom: 50px;
     gap: 32px;
   }

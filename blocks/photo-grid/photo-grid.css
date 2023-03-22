@@ -3,8 +3,9 @@
   margin: 0 auto;
   margin-top: 92px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-columns: repeat(4, minmax(min-content, 284px));
   gap: 16px;
+  justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
@@ -26,7 +27,7 @@
 
 @media screen and (max-width: 320px) {
   .photo-grid {
-    /*width: calc(100vw - 16px * 2);*/
+    width: calc(100vw - 16px * 2);
     grid-template-columns: 288px;
     margin-top: 64px;
     gap: 12px;
