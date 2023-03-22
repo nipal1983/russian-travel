@@ -1,7 +1,6 @@
 .footer {
   width: calc(100vw - 48px * 2);
   margin: 92px auto 24px;
-
   display: flex;
   flex-direction: row;
 }
@@ -14,17 +13,14 @@
 @media (max-width: 768px) {
   .footer {
     width: calc(100vw - 24px * 2);
-    margin: 88px auto;
+    margin: 88px auto 24px;
   }
 }
 
 @media (max-width: 650px) {
   .footer {
-    display: flex;
     flex-direction: column;
-
     width: calc(100vw - 16px * 2);
     margin: 64px auto 24px;
-    min-height: 310px;
   }
 }

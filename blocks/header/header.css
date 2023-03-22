@@ -2,7 +2,6 @@
   width: calc(100vw - 48px * 2);
   display: flex;
   justify-content: space-between;
-
   margin: 28px auto 0;
 }
 

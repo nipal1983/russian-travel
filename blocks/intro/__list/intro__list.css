@@ -1,9 +1,7 @@
 .intro__list {
   max-width: 100%;
-
   margin-top: 33px;
   margin-left: 0;
-
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
@@ -12,11 +10,6 @@
   padding-left: 0;
   color: #ffffff;
   margin-bottom: 0;
-}
-
-.intro__list-digits {
-  font-style: normal;
-  font-weight: 400;
 }
 
 @media (max-width: 320px) {

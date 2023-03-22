@@ -7,14 +7,12 @@
 @media (max-width: 1024px) {
   .lead {
     margin: 48px auto 0;
-
     width: calc(100vw - 48px * 2);
   }
 }
 
 @media (max-width: 768px) {
   .lead {
-    margin: 48px auto 0;
     width: 100%;
   }
 }

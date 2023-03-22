@@ -1,17 +1,13 @@
 .cover {
   min-height: 740px;
-
   width: calc(100vw - 48px * 2);
-
   position: relative;
-
   margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
   .cover {
     min-height: 640px;
-
     width: 100%;
   }
 }
@@ -19,15 +15,11 @@
 @media (max-width: 768px) {
   .cover {
     min-height: 480px;
-
-    width: 100%;
   }
 }
 
 @media (max-width: 320px) {
   .cover {
     min-height: 200px;
-
-    width: 100%;
   }
 }

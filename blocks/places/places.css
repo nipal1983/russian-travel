@@ -5,7 +5,6 @@
 
 @media (max-width: 1024px) {
   .places {
-    margin: 92px auto;
     width: calc(100vw - 48px * 2);
   }
 }

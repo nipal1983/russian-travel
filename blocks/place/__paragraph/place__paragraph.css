@@ -10,8 +10,8 @@
   margin-bottom: 0;
 }
 
-.place__paragraph:nth-child(2) {
-  margin-top: 26px;
+.place__paragraph:first-child {
+  margin-bottom: 26px;
 }
 
 @media (max-width: 768px) {
@@ -21,15 +21,13 @@
   }
 }
 @media (max-width: 768px) {
-  .place__paragraph:nth-child(2) {
-    margin-top: 25px;
+  .place__paragraph:first-child {
+    margin-bottom: 25px;
   }
 }
 
 @media (max-width: 320px) {
   .place__paragraph {
-    font-size: 16px;
-    line-height: 26.08px;
     margin-left: 16px;
     max-width: 288px;
   }

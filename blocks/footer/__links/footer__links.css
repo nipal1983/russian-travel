@@ -4,16 +4,13 @@
   flex-direction: row;
   padding-left: 0;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
   .footer__links {
     flex-direction: column;
-
-    max-width: 186px;
-    min-height: calc(310px - 48px - 14px);
     justify-content: space-between;
-
     margin-bottom: 0;
   }
 }

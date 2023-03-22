@@ -1,44 +1,9 @@
 .place__website {
   align-self: end;
-  max-height: 46px;
   padding-top: 0;
 }
 
-.place__url-heading {
-  /*height: 12px;*/
-  max-width: 456px;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 20.4px;
-  letter-spacing: 2px;
-  text-align: left;
-  color: #aaaaaa;
-  margin-top: 0;
-}
-
-.place__link {
-  /* height: 22px;*/
-  max-width: 456px;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #ffffff;
-  text-decoration: none;
-}
-@media (max-width: 768px) {
-  .place__url-heading {
-    line-height: 12px;
-  }
-}
-@media (max-width: 768px) {
-  .place__url-heading {
-    line-height: 12px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 320px) {
   .place__website {
     margin-left: 16px;
   }
