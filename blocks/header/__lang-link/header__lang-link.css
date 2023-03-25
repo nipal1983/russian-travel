@@ -7,11 +7,14 @@
   color: #ffffff;
   margin-top: 20px;
   margin-right: 18px;
+  text-decoration: none;
+}
+
+.header__lang-link_active {
   text-decoration: underline;
 }
 
 .header__lang-link:last-child {
-  text-decoration: none;
   margin-right: 0;
 }
 

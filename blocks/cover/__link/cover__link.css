@@ -28,6 +28,7 @@
   opacity: 0.8;
   transition: opacity 0.5s ease-in-out;
 }
+
 @media (max-width: 1024px) {
   .cover__link {
     min-height: 640px;

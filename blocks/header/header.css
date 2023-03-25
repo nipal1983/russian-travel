@@ -1,6 +1,5 @@
 .header {
-  width: calc(100vw - 48px * 2);
-  max-width: 1280px;
+  width: calc(100% - 48px * 2);
   display: flex;
   justify-content: space-between;
   margin: 28px auto 0;
@@ -8,13 +7,13 @@
 
 @media screen and (max-width: 768px) {
   .header {
-    width: calc(100vw - 24px * 2);
+    width: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
     margin: 16px auto 0;
-    width: calc(100vw - 16px * 2);
+    width: calc(100% - 16px * 2);
   }
 }

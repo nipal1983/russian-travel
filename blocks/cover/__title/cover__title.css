@@ -1,9 +1,7 @@
 .cover__title {
   margin: 0;
-
   max-width: 560px;
   color: #ffffff;
-
   font-style: normal;
   font-size: 72px;
   font-weight: 900;
@@ -14,12 +12,11 @@
   z-index: 1;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .cover__title {
     font-size: 32px;
-
     line-height: 35px;
     padding: 0 0 16px 0;
-    width: calc(100vw - 35px * 2);
+    width: calc(100% - 35px * 2);
   }
 }

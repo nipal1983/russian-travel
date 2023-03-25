@@ -11,11 +11,11 @@
 
 @media (max-width: 500px) {
   .footer__link {
-    margin-right: 0;
     font-size: 24px;
     line-height: 24px;
   }
 }
+
 .footer__link:hover {
   opacity: 0.8;
 }
