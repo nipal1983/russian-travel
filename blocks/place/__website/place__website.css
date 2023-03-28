@@ -5,6 +5,12 @@
 
 @media (max-width: 767px) {
   .place__website {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__website {
     margin-left: 16px;
   }
 }

@@ -30,6 +30,12 @@
 @media (max-width: 767px) {
   .place__paragraph {
     margin-left: 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraph {
+    margin-left: 16px;
     max-width: 288px;
   }
 }
